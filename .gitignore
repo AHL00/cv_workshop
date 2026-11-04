@@ -1,0 +1,6 @@
+__pycache__
+.venv
+.vscode
+.workshop_runs
+best.pt
+yolo11n.pt
