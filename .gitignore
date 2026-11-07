@@ -4,3 +4,5 @@ __pycache__
 .workshop_runs
 ./best.pt
 yolo11n.pt
+sdkconfig
+esp32s3_inference/dependencies.lock

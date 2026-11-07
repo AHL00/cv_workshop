@@ -41,7 +41,7 @@ extern "C" void app_main(void)
         pre->preprocess(img);
         int64_t inference_start = esp_timer_get_time();
         model->run();
-        inference_sum = esp_timer_get_time() - inference_start;
+        inference_sum += esp_timer_get_time() - inference_start;
         post->clear_result();
         post->postprocess();
     }
